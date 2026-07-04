@@ -9,7 +9,7 @@ db = mysql.connector.connect(
     host="localhost",
     user="root",
     password="root",
-    database="house_db"
+    database="houseprice"
 )
 cursor = db.cursor()
 
